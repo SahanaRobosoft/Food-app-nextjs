@@ -49,7 +49,7 @@ const HomePage = () => {
   }, []);
 
   if (loading) {
-    return <div className="text-center">Loading...</div>;
+    return <div className="text-center text-gray-400">Loading...</div>;
   }
   if (error) {
     return <div className="text-center text-red-500">{error}</div>;
